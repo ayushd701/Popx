@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 const Signup = () => {
   const { theme } = useTheme();
   const navigate = useNavigate();
+  document.title = "Signup";
 
   return (
     <div className={`min-h-screen flex items-center justify-center p-6 transition-colors duration-300 ${

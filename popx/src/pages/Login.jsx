@@ -6,7 +6,8 @@ import { Link, useNavigate } from "react-router-dom";
 const Login = () => {
   const { theme } = useTheme();
   const navigate = useNavigate();
-
+  document.title = "Login";
+  
   return (
     <div className={`min-h-screen flex flex-col justify-center p-6 transition-colors duration-300 ${
       theme === 'dark' ? 'bg-gray-900' : 'bg-gray-100'

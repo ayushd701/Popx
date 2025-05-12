@@ -5,6 +5,7 @@ import { useTheme } from "../context/ThemeContext";
 const Welcome = () => {
   const navigate = useNavigate();
   const { theme } = useTheme();
+  document.title = "PopX";
 
   return (
     <div className={`min-h-screen flex flex-col justify-center p-6 transition-colors duration-300 ${

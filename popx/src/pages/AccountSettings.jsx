@@ -3,6 +3,7 @@ import Button from "../components/Button";
 
 const AccountSettings = () => {
   const { theme } = useTheme();
+  document.title = "Settings";
 
   return (
     <div className={`min-h-screen p-4 sm:p-6 transition-colors duration-300 ${
