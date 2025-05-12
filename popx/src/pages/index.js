@@ -1,5 +1,5 @@
-import Welcome from './welcome';
-import Login from './login';
+import Welcome from './Welcome';
+import Login from './Login';
 import Signup from "./Signup"
 import AccountSettings from './AccountSettings';
 
